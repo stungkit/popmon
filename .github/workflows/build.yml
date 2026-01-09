@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        python: ['3.9', '3.10', '3.11', '3.12']
+        python: ['3.9', '3.10', '3.11', '3.12', '3.13']
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -56,6 +56,12 @@ jobs:
             HADOOP_VERSION: "3"
             JAVA_VERSION: "17"
             python: "3.12"
+            os: ubuntu-latest
+            dependency_constraints: '"pandas>=2" "numpy>=2"'
+          - SPARK_VERSION: "4.1.0"
+            HADOOP_VERSION: "3"
+            JAVA_VERSION: "17"
+            python: "3.13"
             os: ubuntu-latest
             dependency_constraints: '"pandas>=2" "numpy>=2"'
     runs-on: ${{ matrix.os }}

@@ -30,7 +30,7 @@ dependencies = [
     "tqdm",
     "plotly",
     "joblib>=0.14.0",
-    "htmlmin",
+    "htmlmin2",
     "pydantic>=2",
     "pydantic-settings",
     "typing_extensions"

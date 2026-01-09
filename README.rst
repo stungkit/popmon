@@ -17,7 +17,7 @@ It works with numerical, ordinal, categorical features, and the histograms can b
 as trends, shifts, peaks, outliers, anomalies, changing correlations, etc,
 using monitoring business rules.
 
-Latest update: Sep 2025.
+Latest update: Jan 2026.
 
 |example|
 
